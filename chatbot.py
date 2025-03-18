@@ -1,4 +1,4 @@
-# AIzaSyDfMHNzkSWhGdPwLb_WSfOqCqYKXRnCdSo
+
 
 from google import genai
 from google.genai import types
@@ -7,7 +7,7 @@ from autoplay import playVoice
 import os
 import pygame
 sys_instruct="You are a Aura AI designed for autism detection. Talk gently and kindly with others. First of all make sure to greet the user by introducing yourself as a companion. Keep your response as short as possible. You are created by Team Zenith"
-client = genai.Client(api_key="AIzaSyDfMHNzkSWhGdPwLb_WSfOqCqYKXRnCdSo")
+client = genai.Client(api_key="API Key")
 
 chat = client.chats.create(model="gemini-2.0-flash", config=types.GenerateContentConfig(
         max_output_tokens=500,
